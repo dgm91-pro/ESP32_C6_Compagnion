@@ -2,7 +2,7 @@
 This project started with a random idea that I wanted to bring to life. I don't have everything figured out yet, but that's also what makes it interesting.
 A big thanks to Hack Club for supporting me and other young makers, helping us get the parts we need and actually build our ideas.
 
-![He Cute isn't he ?](Assets/Logo.jpg)
+![He Cute isn't he ?](Assets/Esp32_Logo.png)
 
 ***
 🔧 Hardware
