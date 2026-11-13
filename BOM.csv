@@ -19,4 +19,5 @@ CAP CER 10uF 50V X5R 0805,Part,5,0.1245,0.62,https://www.lcsc.com/fr/product-det
 CAP CER 100nF 50V X7R 0805,Part,20,0.0139,0.28,https://www.lcsc.com/fr/product-detail/C49678.html?spm=wm.gwc.xh.11.cbm___wm.fly.ssl.gwc&lcsc_vid=RFNeVFNSTlNZBFBQRlFZAgIERFEPXlUCT1FaXwICRlAxVlNfQ1RXUlVQQFFdXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4IFUsFFhMa,LCSC,Grant,20 is Min. Order
 FERRITE BEAD 1kΩ 0805 1LN,Part,10,0.0286,0.29,https://www.lcsc.com/fr/product-detail/C76817.html?spm=wm.gwc.xh.13.cbm___wm.fly.ssl.gwc&lcsc_vid=RFNeVFNSTlNZBFBQRlFZAgIERFEPXlUCT1FaXwICRlAxVlNfQ1RXUlVQQFFdXzsOAxUeFF5JWBYZEEoKFBINSQcJGk4IFUsFFhMa,LCSC,Grant,10 is Min. Order
 LCSC TAXES AND SHIP,Tax or fee,1,23.95,23.95,http://X,LCSC,Grant,May be lower if i join LCSC with JLCPCB Order
-Total,,,,120.28,,,,
+ROOM FOR SAFETY,Tax or fee,1,29.72,29.72,http://X,X,Grant,"This round the whole project to 150$ so i can take more capacitor or deal with ended promo etc when the project will be evaluated , also it will be useful if i break something because i never soled smd components..."
+Total,,,,150.00,,,,
