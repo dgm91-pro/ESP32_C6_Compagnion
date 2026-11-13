@@ -29,3 +29,5 @@ There's quite a bit of programming and hardware integration involved, so it will
 This repository will evolve as the project progresses. I'll upload updates to the software, hardware documentation and 3D models whenever I make changes.
 There's still a lot to do, and I'm looking forward to seeing what I can make out of this idea.
 Thanks for stopping by!
+
+![He Cute isn't he ?](Assets/Overview.png)
