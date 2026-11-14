@@ -74,3 +74,15 @@ https://github.com/dgm91-pro/ESP32_C6_Compagnion/tree/main
 ![](https://fabricate.hackclub-assets.com/f11f555d9fee09235098de2a3c46dac69725bfca7b3f154c2f77c5a6db46d4a2/image-png/BOM_TXT_IMG.png)
 
 **Total time spent: 5h**
+
+# November 14, 2026: Updating Github Repo to meet as close as possible hackclub requirements
+
+Made a full remake of the readme and added some missing files
+
+I'll wait for hackclub answers abount my request concerning the CAD and Software parts.
+
+I Checked BOM of parts , notice that the BOM.csv only contain the part i need for now , and will be upadted once i find the best battery and parts i already have.
+I didn't understood everything in the requirements since english is not my first language , but i think we might be good with everything else , thanks to Artur Islamov on slack that reviewed this repo.
+At first i didn't even knew that they were some requirements , i hope what i will help getting approved by hackclub.
+ 
+**Total time spent: 3h**
