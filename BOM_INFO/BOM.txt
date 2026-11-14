@@ -24,6 +24,8 @@ x1 TPS2116DRL ( SOT ) :
 x1 330KΩ Resistor 0805
 x1 100KΩ Resistor 0805
 
+x1 PCB BOARD
+
 + Maybe an SD card but not sure at the moment
 + Any 8 ohm Speaker ( ALREADY HAVE ONE ) 
 + Any Compatible Battery ( you might have to adapt the 3D model i'll make for this project ) ( ALREADY HAVE ONE )
