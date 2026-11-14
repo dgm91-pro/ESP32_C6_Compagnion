@@ -121,7 +121,10 @@ In the CAD folder , you'll find a .step file of the whole pcb with every compone
 
 ### Some Pictures Of This Project ! 
 
-
+![Overview Front](Assets/3D_Front.png)
+![Overview Back](Assets/3D_Back.png)
+![Overview PCB](Assets/Pcb.png)
+![Overview Schematics](Assets/Schematics.jpg)
 
 ( UPDATED )
 
