@@ -1,6 +1,6 @@
 ---
 title: "ESP32 C6 COMPAGNION"
-github: ""
+github: "https://github.com/dgm91-pro/ESP32_C6_Compagnion/tree/main"
 description: "This is Going to be Experimental..."
 created_at: "2026-11-11"
 total_time: "28h 6m"
