@@ -3,10 +3,11 @@ title: "ESP32 C6 COMPAGNION"
 github: "https://github.com/dgm91-pro/ESP32_C6_Compagnion/tree/main"
 description: "This is Going to be Experimental..."
 created_at: "2026-11-11"
-total_time: "28h 6m"
+total_time: "33h 36m"
 ---
 
 # November 11, 2026: First Entry
+<!-- fabricate:entry 2631 -->
 
 Looking Around for what components i'm going to use , i want to make a deskbot that i could maybe program to listen to my teacher and then use an IA to take notes for me since i work with a PC at school.
 
@@ -16,7 +17,8 @@ I'll like to add some physical buttons and a led to start recording and everythi
 
 **Total time spent: 6m**
 
-# November 11, 2026: My First DIY footprint and symbol in kicad ! Yayyyy
+# November 11, 2026 (entry 2): My First DIY footprint and symbol in kicad ! Yayyyy
+<!-- fabricate:entry 2649 -->
 
 So i started designing the footprint and symbol in kicad cuz i wanted to make it my own so i know exactly where are the holes and everything and i don't download a bad footprint ( ex : esp32 c6 without touch )
 
@@ -26,6 +28,7 @@ So i started designing the footprint and symbol in kicad cuz i wanted to make it
 **Total time spent: 3h**
 
 # November 12, 2026: Made Some Research , choose components and made schematics !
+<!-- fabricate:entry 2698 -->
 
 Hi , i've made some search and here is what i'll use :
 
@@ -44,6 +47,7 @@ Note : I2S connection should be possible by "remapping" the esp32 UART pins.
 **Total time spent: 11h 30m**
 
 # November 13, 2026: Routed The PCB ( Good Title Suggestion Hackclub 😂)
+<!-- fabricate:entry 2899 -->
 
 So , I Fixed some little problems with the schematics and just ended to route everything/add some decorations to my design.
 Next Step Will be to Make The BOM.
@@ -55,7 +59,8 @@ Note : I needed to put VIAS at some random places to join GND on both surfaces.
 
 **Total time spent: 8h 30m**
 
-# November 13, 2026: Cleaning ts out🧹💨🍃
+# November 13, 2026 (entry 2): Cleaning ts out🧹💨🍃
+<!-- fabricate:entry 2935 -->
 
 Fixed some little things on the pcb , 
 Made the BOM and Github repo ,
@@ -76,6 +81,7 @@ https://github.com/dgm91-pro/ESP32_C6_Compagnion/tree/main
 **Total time spent: 5h**
 
 # November 14, 2026: Updating Github Repo to meet as close as possible hackclub requirements
+<!-- fabricate:entry 2982 -->
 
 Made a full remake of the readme and added some missing files
 
@@ -84,5 +90,22 @@ I'll wait for hackclub answers abount my request concerning the CAD and Software
 I Checked BOM of parts , notice that the BOM.csv only contain the part i need for now , and will be upadted once i find the best battery and parts i already have.
 I didn't understood everything in the requirements since english is not my first language , but i think we might be good with everything else , thanks to Artur Islamov on slack that reviewed this repo.
 At first i didn't even knew that they were some requirements , i hope what i will help getting approved by hackclub.
- 
+
 **Total time spent: 3h**
+
+# November 15, 2026: Fixed a BIG error and made first test program for audio
+<!-- fabricate:entry 3040 -->
+
+Thank's to Slack Channel : while i started working on the software , i realized that i made a big big mistake on the pcb board.
+
+I used the "symbol" pins instead of the GPIO number for SDA and SCL pins.
+I've updated everything in the repo in time now everything should be fine.
+
+As recommended by JP ; I made a small software ( at least for testing some pcb modules ) and commited it to Github this morning. 
+
+If you plan to use the software please read my comments and take care to put the INT2 pin of the IMU to High-Z mode to avoid problems with the microphone.
+
+![](https://fabricate.hackclub-assets.com/937e60255539dbe873309bfaa8acb4e1022c19b11c4eabfb23fb7f6b6191ac88/image-png/old.png)
+![](https://fabricate.hackclub-assets.com/25edce84058241eb91e2ad1e7f757c32f70081096ad3e8f4677a37e5f37670ab/image-png/new.png)
+
+**Total time spent: 2h 30m**
