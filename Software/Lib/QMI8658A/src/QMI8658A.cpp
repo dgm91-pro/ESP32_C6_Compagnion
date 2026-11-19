@@ -100,7 +100,7 @@ constexpr uint8_t STATUS1_WOM_BIT        = 0x04;
 // STATUSINT bit mask
 constexpr uint8_t STATUSINT_CMD_DONE_BIT = 0x80;
 
-//Base CTRL1 value: address auto-increment + big-endian flag ON, FIFO interrupt routed to INT1, INT2 output permanently disabled.
+//Base CTRL1 value: address auto-increment, FIFO interrupt routed to INT1, INT2 output permanently disabled. -- Big Endian set to off since strong point byte at the end in our calc.
 constexpr uint8_t CTRL1_BASE = CTRL1_ADDR_AI_BIT /*| CTRL1_BE_BIT */| CTRL1_FIFO_INT_SEL; // - BE Disabled 
 
 // Base CTRL7 value: DRDY disabled (it can only be routed to INT2), both sensors off unless explicitly enabled.
